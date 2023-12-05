@@ -1,0 +1,152 @@
+[
+    {
+      "id": 1,
+      "question": "¿Qué significa HTML?",
+      "correct_answer": "Lenguaje de Marcado de Hipertexto",
+      "incorrect_answers": [
+        "Hojas de Estilo en Cascada",
+        "Lenguaje de Programación de Hipertexto",
+        "HyperText Markup Language"
+      ]
+    },
+    {
+      "id": 2,
+      "question": "¿Cuál es el propósito de CSS en el desarrollo web?",
+      "correct_answer": "Estilo y presentación",
+      "incorrect_answers": [
+        "Funcionalidad y lógica",
+        "Interacción del usuario",
+        "Almacenamiento de datos"
+      ]
+    },
+    {
+      "id": 3,
+      "question": "¿Qué significa AJAX en desarrollo web?",
+      "correct_answer": "Asynchronous JavaScript and XML",
+      "incorrect_answers": [
+        "Advanced JavaScript and XML",
+        "Asynchronous JSON and XML",
+        "Automated JavaScript and XML"
+      ]
+    },
+    {
+      "id": 4,
+      "question": "¿Cuál es el propósito de JavaScript en el navegador?",
+      "correct_answer": "Interactividad del usuario",
+      "incorrect_answers": [
+        "Estilo y presentación",
+        "Conexión a bases de datos",
+        "Manejo de servidores"
+      ]
+    },
+    {
+      "id": 5,
+      "question": "¿Qué es Git?",
+      "correct_answer": "Sistema de control de versiones",
+      "incorrect_answers": [
+        "Lenguaje de programación",
+        "Servidor web",
+        "Herramienta de diseño gráfico"
+      ]
+    },
+    {
+      "id": 6,
+      "question": "¿Qué es un servidor web?",
+      "correct_answer": "Software que sirve páginas web",
+      "incorrect_answers": [
+        "Computadora personal",
+        "Aplicación de diseño gráfico",
+        "Red de distribución de archivos"
+      ]
+    },
+    {
+      "id": 7,
+      "question": "¿Cuál es el propósito de SQL en desarrollo web?",
+      "correct_answer": "Gestión de bases de datos",
+      "incorrect_answers": [
+        "Programación de interfaz de usuario",
+        "Diseño de páginas web",
+        "Seguridad del servidor"
+      ]
+    },
+    {
+      "id": 8,
+      "question": "¿Qué significa API?",
+      "correct_answer": "Interfaz de Programación de Aplicaciones",
+      "incorrect_answers": [
+        "Archivo de Programas e Instrucciones",
+        "Aplicación para Programar Interfaces",
+        "Asociación de Programadores Independientes"
+      ]
+    },
+    {
+      "id": 9,
+      "question": "¿Qué es un framework en desarrollo web?",
+      "correct_answer": "Estructura de código reutilizable",
+      "incorrect_answers": [
+        "Herramienta de diseño gráfico",
+        "Lenguaje de programación",
+        "Servidor de archivos"
+      ]
+    },
+    {
+      "id": 10,
+      "question": "¿Cuál es la función de HTTP en el desarrollo web?",
+      "correct_answer": "Protocolo de transferencia de hipertexto",
+      "incorrect_answers": [
+        "Lenguaje de programación",
+        "Sistema operativo",
+        "Base de datos relacional"
+      ]
+    },
+    {
+      "id": 11,
+      "question": "¿Qué es el responsive design?",
+      "correct_answer": "Diseño adaptable a diferentes dispositivos",
+      "incorrect_answers": [
+        "Diseño estático",
+        "Diseño animado",
+        "Diseño en blanco y negro"
+      ]
+    },
+    {
+      "id": 12,
+      "question": "¿Cuál es la función de un servidor DNS?",
+      "correct_answer": "Traducción de nombres de dominio a direcciones IP",
+      "incorrect_answers": [
+        "Almacenamiento de archivos",
+        "Protección contra virus",
+        "Servicio de correo electrónico"
+      ]
+    },
+    {
+      "id": 13,
+      "question": "¿Qué es el control de versiones?",
+      "correct_answer": "Gestión de cambios en el código fuente",
+      "incorrect_answers": [
+        "Gestión de usuarios en un sistema",
+        "Control de acceso a la red",
+        "Configuración de hardware"
+      ]
+    },
+    {
+      "id": 14,
+      "question": "¿Cuál es el propósito de un archivo robots.txt?",
+      "correct_answer": "Instrucciones para los motores de búsqueda",
+      "incorrect_answers": [
+        "Configuración del servidor",
+        "Contenido multimedia",
+        "Código fuente de la página"
+      ]
+    },
+    {
+      "id": 15,
+      "question": "¿Qué es el testing en desarrollo web?",
+      "correct_answer": "Evaluación y verificación del software",
+      "incorrect_answers": [
+        "Creación de contenido multimedia",
+        "Diseño de interfaces de usuario",
+        "Configuración del servidor"
+      ]
+    }
+]

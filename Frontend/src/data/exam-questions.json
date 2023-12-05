@@ -1,0 +1,102 @@
+[
+    {
+        "id": 1,
+        "question": "¿Qué es MVC y cómo se aplica en el desarrollo web?",
+        "correct_answer": "Separación de lógica, interfaz y eventos.",
+        "incorrect_answers": [
+            "Módulos de Vistas y Controladores.",
+            "Modelo-Interfaz-Controlador.",
+            "Manejo Visual de Código."
+        ]
+    },
+    {
+        "id": 2,
+        "question": "Explique 'hoisting' en JavaScript.",
+        "correct_answer": "Declaraciones movidas al inicio del contexto de ejecución.",
+        "incorrect_answers": [
+            "Error en JavaScript.",
+            "Solo ocurre en funciones.",
+            "Sin relevancia en JavaScript."
+        ]
+    },
+    {
+        "id": 3,
+        "question": "¿Qué es CORS y su importancia?",
+        "correct_answer": "Control de recursos entre dominios.",
+        "incorrect_answers": [
+            "Solo en solicitudes locales.",
+            "Opcional para seguridad web.",
+            "Solo afecta solicitudes GET."
+        ]
+    },
+    {
+        "id": 4,
+        "question": "Explique el 'callback hell' en JavaScript.",
+        "correct_answer": "Anidación excesiva de funciones de devolución de llamada.",
+        "incorrect_answers": [
+            "Solo en entornos locales.",
+            "Deseado en JavaScript.",
+            "Solo en aplicaciones de servidor."
+        ]
+    },
+    {
+        "id": 5,
+        "question": "¿Qué es GraphQL y su diferencia con REST?",
+        "correct_answer": "Lenguaje de consulta, única solicitud.",
+        "incorrect_answers": [
+            "Solo en desarrollo front-end.",
+            "Interchangeables con REST.",
+            "Obsoleto en desarrollo web."
+        ]
+    },
+    {
+        "id": 6,
+        "question": "Funcionamiento de 'lazy loading' en imágenes web.",
+        "correct_answer": "Retrasa carga hasta ser necesarias.",
+        "incorrect_answers": [
+            "Solo en scripts.",
+            "Perjudicial para rendimiento.",
+            "Obsoleto en desarrollo web."
+        ]
+    },
+    {
+        "id": 7,
+        "question": "Concepto de 'memoization' y uso en React.",
+        "correct_answer": "Almacenamiento en caché para evitar recálculos.",
+        "incorrect_answers": [
+            "Solo en funciones puras.",
+            "Exclusivo de Angular.",
+            "Solo en aplicaciones de servidor."
+        ]
+    },
+    {
+        "id": 8,
+        "question": "Diferencia entre 'state' y 'props' en React.",
+        "correct_answer": "State interno y mutable, props pasadas e inmutables.",
+        "incorrect_answers": [
+            "Interchangeables en React.",
+            "Solo en componentes de clase.",
+            "Props solo en componentes de nivel superior."
+        ]
+    },
+    {
+        "id": 9,
+        "question": "Funcionamiento de 'WebSockets' en tiempo real.",
+        "correct_answer": "Comunicación bidireccional, actualizaciones instantáneas.",
+        "incorrect_answers": [
+            "Solo en desarrollo de juegos.",
+            "Menos eficiente que HTTP.",
+            "Obsoleto en desarrollo web."
+        ]
+    },
+    {
+        "id": 10,
+        "question": "Concepto de 'serverless' en desarrollo web.",
+        "correct_answer": "Construir y ejecutar sin preocuparse por infraestructura.",
+        "incorrect_answers": [
+            "Solo para aplicaciones simples.",
+            "Ausencia total de servidores, un mito.",
+            "Solo en aplicaciones móviles."
+        ]
+    }
+]
