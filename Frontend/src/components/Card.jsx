@@ -5,7 +5,7 @@ function Card() {
           <div className="information">
             <h3 className="font-semibold text-2xl mb-6">Evaluation 01</h3>
             <div className="subject-container mb-10">
-              <p className="text-color-fondo text-xl">Subject: matematicas 01</p>
+              <p className="text-color-fondo text-xl">Subject: programacion web</p>
             </div>
             <div className="author">
               <p className="text-color-fondo">created by: tutor 01</p>
@@ -13,7 +13,7 @@ function Card() {
           </div>
           <div className="bg-white rounded-lg w-56 h-32 p-6 flex flex-col items-center">
             <p className="font-semibold text-lg mb-7">Questions</p>
-            <p className="font-bold text-xl">15/15</p>
+            <p className="font-bold text-xl">10/10</p>
           </div>
         </div>
       </>

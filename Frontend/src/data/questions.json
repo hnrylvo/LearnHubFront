@@ -98,55 +98,5 @@
         "Sistema operativo",
         "Base de datos relacional"
       ]
-    },
-    {
-      "id": 11,
-      "question": "¿Qué es el responsive design?",
-      "correct_answer": "Diseño adaptable a diferentes dispositivos",
-      "incorrect_answers": [
-        "Diseño estático",
-        "Diseño animado",
-        "Diseño en blanco y negro"
-      ]
-    },
-    {
-      "id": 12,
-      "question": "¿Cuál es la función de un servidor DNS?",
-      "correct_answer": "Traducción de nombres de dominio a direcciones IP",
-      "incorrect_answers": [
-        "Almacenamiento de archivos",
-        "Protección contra virus",
-        "Servicio de correo electrónico"
-      ]
-    },
-    {
-      "id": 13,
-      "question": "¿Qué es el control de versiones?",
-      "correct_answer": "Gestión de cambios en el código fuente",
-      "incorrect_answers": [
-        "Gestión de usuarios en un sistema",
-        "Control de acceso a la red",
-        "Configuración de hardware"
-      ]
-    },
-    {
-      "id": 14,
-      "question": "¿Cuál es el propósito de un archivo robots.txt?",
-      "correct_answer": "Instrucciones para los motores de búsqueda",
-      "incorrect_answers": [
-        "Configuración del servidor",
-        "Contenido multimedia",
-        "Código fuente de la página"
-      ]
-    },
-    {
-      "id": 15,
-      "question": "¿Qué es el testing en desarrollo web?",
-      "correct_answer": "Evaluación y verificación del software",
-      "incorrect_answers": [
-        "Creación de contenido multimedia",
-        "Diseño de interfaces de usuario",
-        "Configuración del servidor"
-      ]
     }
 ]

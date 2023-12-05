@@ -1,3 +1,18 @@
+//body parsersPORT=3000
+
+app.use(express.json());
+app.use(express.urlencoded({ extended: false }));
+app.use(cookieParser());
+
+//static router
+app.use(express.static(path.join(__dirname, 'public')));
+
+//api router
+app.use("/api", apiRouter);
+
+
+module.exports = app;
+﻿
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import LearnHubLogo from "../assets/learnhub-logo/learnhub-logo.svg";

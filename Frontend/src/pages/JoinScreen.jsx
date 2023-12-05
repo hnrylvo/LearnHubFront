@@ -24,9 +24,9 @@ function JoinScreen({ start }) {
 
         <section className="ml-40 flex flex-col items-center">
         <div className="mt-9 h-20 w-11/12 bg-color-borde text-color-texto text-xl font-semibold rounded-xl p-5 flex items-center justify-between">
-            <p className="quiz-title">Quiz title</p>
+            <p className="quiz-title">Evaluacion 01</p>
             <div className="bg-white rounded-md p-3">
-            <p className="number-of-questions">Questions: 15</p>
+            <p className="number-of-questions">Questions: 10</p>
             </div>
           </div>
           <p className="time-info mt-2 w-44 text-center text-sm">You will have 30s per question</p>
