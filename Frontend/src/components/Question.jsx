@@ -50,7 +50,7 @@ function Question({ question, totalQuestions, currentQuestion, setAnswer }) {
             <div
               key={index}
               className={`option ${
-                selectedOption === index ? "selected" : ""
+                selectedOption === index ? "selected" : "bg-color-texto text-white"
               } bg-[#A2A8D3] mx-5 my-3 h-20 w-44 rounded-xl flex items-center justify-center text-lg text-center p-2 font-medium cursor-pointer h-auto`}
               onClick={() => handleOptionClick(index)}
             >
@@ -61,7 +61,7 @@ function Question({ question, totalQuestions, currentQuestion, setAnswer }) {
             className={`option ${
               selectedOption === question.incorrect_answers.length
                 ? "selected"
-                : ""
+                : "bg-color-texto text-white"
             } bg-[#A2A8D3] ml-5 my-3 h-20 w-44 rounded-xl flex items-center justify-center text-lg text-center p-2 font-medium cursor-pointer h-auto`}
             onClick={() =>
               handleOptionClick(question.incorrect_answers.length)
