@@ -21,7 +21,7 @@ const StarRating = ({ rating, onRatingChange }) => {
 };
 
 const EvaluateTutor = () => {
-  const tutors = ["Tutor 1", "Tutor 2", "Tutor 3"]; // Puedes reemplazar esto con tus propios tutores
+  const tutors = ["Tutor 1", "Tutor 2", "Tutor 3"]; 
 
   const [selectedTutor, setSelectedTutor] = useState("");
   const [rating1, setRating1] = useState(null);
@@ -53,7 +53,7 @@ const EvaluateTutor = () => {
   };
 
   return (
-    <div className="flex flex-col min-h-screen items-center justify-center">
+    <div className="flex flex-col min-h-screen items-center justify-center ml-24">
       <nav>
         <Sidebar />
       </nav>
@@ -69,7 +69,7 @@ const EvaluateTutor = () => {
       <h2 className="text-slate-600 text-5xl font-bold tracking-wide mt-7">
         Rate Tutor
       </h2>
-      <label className="text-slate-600 text-2xl font-bold mt-5">
+      <label className="text-slate-600 text-2xl font-bold mt-16">
         Selecciona un tutor:
         <select
           className="ml-3 p-2 border rounded"
@@ -87,27 +87,27 @@ const EvaluateTutor = () => {
         </select>
       </label>
 
-      <div className="w-[837px] h-[432px] px-[182px] pt-[30px] pb-[31px] rounded-[13px] box-border bg-[rgba(162,168,211,1)] ">
+      <div className="w-[837px] h-auto px-[182px] pt-[30px] pb-[31px] rounded-[13px] box-border bg-[rgba(162,168,211,1)] mt-9">
         <form className="flex flex-col space-y-4 ">
           <label className="flex-1 ">
-            <p className="text-2xl">¿Cómo calificarías la claridad de las explicaciones del tutor?</p>
+            <p className="text-xl">¿Cómo calificarías la claridad de las explicaciones del tutor?</p>
             <StarRating rating={rating1} onRatingChange={handleRatingChange1} />
           </label>
 
           <label className="flex-1">
-            <p className="text-2xl">¿Cómo evaluarías la disponibilidad y receptividad del tutor para abordar tus preguntas y preocupaciones?</p>
+            <p className="text-xl">¿Cómo evaluarías la disponibilidad y receptividad del tutor para abordar tus preguntas y preocupaciones?</p>
             <StarRating rating={rating2} onRatingChange={handleRatingChange2} />
           </label>
           
           <label className="flex-1">
-            <p className="text-2xl">En qué medida sientes que el tutor se adapta a tus necesidades de aprendizaje</p>
+            <p className="text-xl">En qué medida sientes que el tutor se adapta a tus necesidades de aprendizaje</p>
             <StarRating rating={rating3} onRatingChange={handleRatingChange3} />
           </label>
         </form>
       </div>
 
       <button
-        className="text-slate-200 text-justify text-4xl font-bold tracking-wide bg-slate-900 w-[330px] max-w-full justify-center items-center mt-8 px-5 py-7 rounded-xl max-md:mt-5 flex-col"
+        className="text-slate-200 text-justify text-4xl font-bold tracking-wide bg-slate-900 w-[330px] max-w-full justify-center items-center mt-8 px-5 py-7 rounded-xl max-md:mt-5 flex-col mt-9"
         type="submit"
         onClick={handleSubmit}
       >
