@@ -15,8 +15,7 @@ function JoinScreenExam({ start }) {
             <h4 className="text-color-alterno text-2xl font-bold">Indications</h4>
             <div className="w-11/12 border-2 border-color-borde rounded-2xl mt-20 p-4 items-center">
               <p className="text-justify text-lg text-color-texto my-2">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione veniam laudantium animi nulla tempore, aspernatur perspiciatis doloribus ducimus, id minima eaque neque cumque autem voluptatem asperiores amet. Ex, libero eligendi?
-                ipsa
+                
               </p>
             </div>
           </div>
@@ -24,7 +23,7 @@ function JoinScreenExam({ start }) {
 
         <section className="ml-40 flex flex-col items-center">
         <div className="mt-9 h-20 w-11/12 bg-color-borde text-color-texto text-xl font-semibold rounded-xl p-5 flex items-center justify-between">
-            <p className="quiz-title">Exam title</p>
+            <p className="quiz-title">Evaluacion 01</p>
             <div className="bg-white rounded-md p-3">
             <p className="number-of-questions">Questions: 15</p>
             </div>
